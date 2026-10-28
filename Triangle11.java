@@ -15,6 +15,17 @@ public class Triangle11 {
             System.out.println();
             i++;
         }
+        // Segitiga terbalik
+        i = n;
+        while (i >= 1) {
+            int j = 0;
+            while (j < i) {
+                System.out.print("*");
+                j++;
+            }
+            System.out.println();
+            i--;
+        }
         sc.close();
     }
 }
